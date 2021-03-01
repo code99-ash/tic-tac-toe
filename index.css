@@ -1,0 +1,32 @@
+.box-w {
+    width: 450px;
+    font-size: 95px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box {
+    width: 150px;
+    height: 150px;
+    background: #333 !important;
+    margin-bottom: 2px !important;
+    margin-left: 1px !important;
+}
+.cover {
+    position: absolute;
+    width: 453px;
+    height: 456px;
+    background: rgba(14, 58, 14, 0.473);
+    margin-top: -456px;
+    font-size: 65px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 4px 4px 4px #fff;
+}
+#welcome {
+    font-size: 22px;
+    min-height: 2em;
+}
+#blocker {
+    z-index: -1;
+}
+#blocker.active {
+    z-index: 1;
+}
